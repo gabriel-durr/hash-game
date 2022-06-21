@@ -42,5 +42,5 @@ function updateSquare(position) {
     // 17. Variável que define qual é o simbolo na posição do board,
 
     square.innerHTML = `<div class="${symbol}"></div>`;
-    // 18. E colocamos esse simbolo dentro desse square. no HTML da page, que terá o efeito aplicado no css através da classe.
+    // 18. E colocamos esse simbolo dentro desse square. no HTML da page, que terá o efeito aplicado no css através da classe..
 }
