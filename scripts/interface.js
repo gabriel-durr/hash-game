@@ -26,6 +26,9 @@ function handleClick(event) {
     ) {
         setTimeout(() => {
             alert(` O Jogo acabou! Vencedor: ${playerTime}`);
+
+            window.location.reload(true);
+            // 36. Coloquei um reload ao dar o alert, para dar full reset e não ficar cheio dos bug...
         }, 10);
     }
 
@@ -43,4 +46,15 @@ function updateSquare(position) {
 
     square.innerHTML = `<div class="${symbol}"></div>`;
     // 18. E colocamos esse simbolo dentro desse square. no HTML da page, que terá o efeito aplicado no css através da classe..
+}
+
+function updateSquares() {
+    // 35. Função que restarta o game, atualizando as squares e variáveis para o estado inicial.
+
+    let cleanSquares = document.querySelectorAll(".square");
+    cleanSquares.forEach((square) => {
+        square.innerHTML = "";
+        playerTime = 0;
+        board.fill("");
+    });
 }

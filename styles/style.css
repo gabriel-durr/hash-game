@@ -45,3 +45,22 @@ body {
     left: 0;
     right: 0;
 }
+
+.container-btn {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: calc(30% - 100px);
+    height: 6rem;
+}
+
+.restart-btn {
+    text-align: center;
+    font-weight: bold;
+    width: 7rem;
+    height: 3rem;
+    background-color: aqua;
+    border: none;
+    border-radius: 2px 2px;
+}
