@@ -37,7 +37,7 @@ function handleMove(position) {
     }
 
     if (board[position] == "") {
-        // 19. Verifica se a posição do board é vazia, para atualizar o array, se não for vazia não permite.
+        // 20. Verifica se a posição do board é vazia, para atualizar o array, se não for vazia não permite.
 
         board[position] = symbols[playerTime];
         // 9. Essa função recebe como argumento o valor da posição que irá representar o index do array, que irá receber um dos símbolos 0 ou x, que tem como index o playerTime que é 0 ou 1
@@ -61,7 +61,7 @@ function handleMove(position) {
 }
 
 function isWin() {
-    // 23. Função que verifica a vez do jogador
+    // 24. Função que verifica a vez do jogador
 
     for (let i = 0; i < winStates.length; i++) {
         // 25. loop for que irá percorrer por cada item (sub-array) do array winStates
