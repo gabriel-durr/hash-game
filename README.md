@@ -1,7 +1,7 @@
 <h2 id="the_challenge"  align="center">⚡ The Challenge  </h2>
 
 <div align="center">
-  <p> Desafio do curso progBR. Criar o game  <sub>hash-game</sub>,  para exercício de algoritmo</p>
+  <p> Challenge of the progBR course. create the game  <sub>hash-game</sub>,  for algorithm exercise</p>
 </div>
 
 <br/>
