@@ -2,7 +2,7 @@
 
  Queremos também que a cada clique, a figura seja colocada no tabuleiro, mudando a vez do jogador e trocando de figura. */
 
-// Iniciar variáveis
+// Iniciar variáveis.
 
 let board = ["", "", "", "", "", "", "", "", ""];
 // 1. Array com 9 posições vazias, que representa os espaços do nosso tabuleiro. Começam todas vazias, porém em alguns momentos podem ter como valor "O" ou "X"
